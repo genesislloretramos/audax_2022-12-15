@@ -1,0 +1,25 @@
+body{
+    background-color: rgba(var(--bs-primary-rgb));
+    height: 100vh;
+}
+.form-degradado{
+    box-shadow: 0 0 1em rgba(0,0,0,0.2);
+}
+header{
+    position: sticky;
+    display: flow-root;
+    top: 0px;
+    margin-bottom: 25px;
+    z-index: 50;
+}
+footer{
+    position: sticky;
+    bottom: 0px;
+    margin-top: 25px;
+    margin-bottom: -1em;
+    z-index: 50;
+}
+form{
+    box-shadow: 0 0 1em rgba(var(--bs-bg-opacity));
+    border-radius: 1em;
+}
